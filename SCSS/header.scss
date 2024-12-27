@@ -1,0 +1,52 @@
+// Define color variables
+$primary-color: #9ac5c2; // Verde colab
+$secondary-color: #6c757d; // Gris
+$tertiary-color: #013f81; // Azul
+$background-color: #f8f9fa; // Blanco
+$text-color: #343a40; // Gris oscuro
+$font-family: 'Roboto', sans-serif;
+
+
+// Apply colors to body
+
+body 
+{
+    padding-left: 6rem; // Adjust the value as needed
+    padding-right: 6rem; // Adjust the value as needed
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $font-family;
+}
+
+// Navbar styles
+.navbar {
+    background-color: $background-color;
+  
+  .h1 {
+    color: $text-color;
+    font-family: $font-family;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.6rem; 
+    margin-top: -0.5rem; 
+
+    .nav-link {
+        color: $text-color;
+    
+    
+        &:hover {
+          color: $tertiary-color; 
+
+           }
+          }
+        
+      }
+}
+
+h2 {
+  color: $text-color;
+  font-family: $font-family;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  margin-top: -0.90rem;   
+}

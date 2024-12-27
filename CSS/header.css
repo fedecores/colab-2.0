@@ -1,0 +1,35 @@
+body {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-color: #f8f9fa;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+}
+.navbar .h1 {
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.6rem;
+  margin-top: -0.5rem;
+}
+.navbar .h1 .nav-link {
+  color: #343a40;
+}
+.navbar .h1 .nav-link:hover {
+  color: #013f81;
+}
+
+h2 {
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  margin-top: -0.9rem;
+}
+
+/*# sourceMappingURL=header.css.map */
