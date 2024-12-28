@@ -15,19 +15,29 @@ body {
   transform: scale(1.5);
 }
 
-.navbar .h1 {
+.navbar .d-inline-block {
+  transition: transform 0.5s ease;
+}
+.navbar .d-inline-block:hover {
+  transform: scale(1.2);
+}
+
+.nav-item {
+  color: #343a40;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.nav-item:hover {
+  background-color: #9ac5c2;
+  color: #f8f9fa;
+}
+
+.h1 {
   color: #343a40;
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.6rem;
   margin-top: -0.5rem;
-}
-.navbar .h1 .nav-link {
-  color: #343a40;
-}
-.navbar .h1 .nav-link:hover {
-  color: #013f81;
 }
 
 h2 {
@@ -38,11 +48,48 @@ h2 {
   margin-top: -0.9rem;
 }
 
-img {
-  transition: transform 0.5s ease;
+.carousel-item {
+  position: relative;
 }
-img:hover {
-  transform: scale(1.2);
+.carousel-item img {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+}
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  pointer-events: none;
+}
+
+h3 {
+  color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+
+h4 {
+  color: #f8f9fa;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.btn {
+  background-color: #f8f9fa;
+  color: black;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn:hover {
+  background-color: #9ac5c2;
 }
 
 /*# sourceMappingURL=header.css.map */
