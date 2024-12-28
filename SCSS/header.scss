@@ -11,17 +11,33 @@ $font-family: 'Roboto', sans-serif;
 
 body 
 {
-    padding-left: 6rem; // Adjust the value as needed
-    padding-right: 6rem; // Adjust the value as needed
     background-color: $background-color;
     color: $text-color;
     font-family: $font-family;
+
+}
+
+
+
+
+//Hero styles
+
+.hero {
+    background-color: $primary-color;
+    color: $background-color;
+    
+    .fab {
+      color:$background-color;
+
+      &:hover {
+        transform: scale(1.5); 
+    }
+    }
 }
 
 // Navbar styles
 .navbar {
-    background-color: $background-color;
-  
+     
   .h1 {
     color: $text-color;
     font-family: $font-family;
@@ -37,10 +53,11 @@ body
         &:hover {
           color: $tertiary-color; 
 
-           }
+
           }
         
       }
+  }
 }
 
 h2 {
@@ -50,3 +67,12 @@ h2 {
   letter-spacing: 0.3rem;
   margin-top: -0.90rem;   
 }
+
+img
+{
+  transition: transform 0.5s ease; // Añade una transición suave
+
+  &:hover {
+    transform: scale(1.2); 
+    }
+  }

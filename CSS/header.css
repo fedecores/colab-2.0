@@ -1,14 +1,20 @@
 body {
-  padding-left: 6rem;
-  padding-right: 6rem;
   background-color: #f8f9fa;
   color: #343a40;
   font-family: "Roboto", sans-serif;
 }
 
-.navbar {
-  background-color: #f8f9fa;
+.hero {
+  background-color: #9ac5c2;
+  color: #f8f9fa;
 }
+.hero .fab {
+  color: #f8f9fa;
+}
+.hero .fab:hover {
+  transform: scale(1.5);
+}
+
 .navbar .h1 {
   color: #343a40;
   font-family: "Roboto", sans-serif;
@@ -30,6 +36,13 @@ h2 {
   font-size: 1rem;
   letter-spacing: 0.3rem;
   margin-top: -0.9rem;
+}
+
+img {
+  transition: transform 0.5s ease;
+}
+img:hover {
+  transform: scale(1.2);
 }
 
 /*# sourceMappingURL=header.css.map */
