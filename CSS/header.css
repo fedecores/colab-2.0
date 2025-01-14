@@ -92,4 +92,28 @@ h4 {
   background-color: #9ac5c2;
 }
 
+.about-us {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+.about-us .about-block {
+  background-color: #f8f9fa;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem;
+  border-radius: 8px;
+}
+.about-us .about-block i {
+  color: #9ac5c2;
+  margin-bottom: 1rem;
+}
+.about-us .about-block h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+.about-us .about-block p {
+  color: #343a40;
+}
+
 /*# sourceMappingURL=header.css.map */
