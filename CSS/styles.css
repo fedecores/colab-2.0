@@ -197,7 +197,7 @@ h4 {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease, max-height 0.3s ease;
-  max-height: 350px;
+  max-height: 450px;
   overflow: hidden;
 }
 .works .card:hover {
@@ -225,6 +225,49 @@ h4 {
   font-family: "Figtree", sans-serif;
   color: #6c757d;
   font-size: 1rem;
+}
+
+.contact-us {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+.contact-us i {
+  color: #6c757d;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+.contact-us h2 {
+  font-family: "Tilt Neon", sans-serif;
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+.contact-us h3 {
+  font-family: "Tilt Neon", sans-serif;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+.contact-us p {
+  font-family: "Figtree", sans-serif;
+  color: #343a40;
+  font-size: 1.25rem;
+}
+.contact-us p .fab {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  color: #343a40;
+}
+.contact-us p a {
+  color: #343a40;
+  text-decoration: none;
+}
+.contact-us p a:hover {
+  text-decoration: underline;
+}
+.contact-us iframe {
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */

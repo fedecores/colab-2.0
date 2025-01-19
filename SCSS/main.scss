@@ -153,7 +153,7 @@
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease, box-shadow 0.3s ease, max-height 0.3s ease;
-      max-height: 350px; // Altura máxima inicial de la tarjeta
+      max-height: 450px; // Altura máxima inicial de la tarjeta
       overflow: hidden; // Oculta el contenido que desborda
 
       &:hover {
@@ -186,5 +186,58 @@
               font-size: 1rem;
           }
       }
+  }
+}
+
+// Contact Us styles
+
+.contact-us {
+  padding: 2rem 0;
+  background-color: $background-color;
+
+  i{
+    color: $secondary-color;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  h2 {
+      font-family: $font-family_titles;
+      color: $text-color;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 3rem;
+  }
+
+  h3 {
+      font-family: $font-family_titles;
+      color: $secondary-color;
+      margin-bottom: 1rem;
+  }
+
+  p {
+      font-family: $font-family_alt;
+      color: $text-color;
+      font-size: 1.25rem;
+
+      .fab {
+          vertical-align: middle;
+          margin-right: 0.5rem;
+          color: $text-color;
+      }
+
+      a {
+          color: $text-color;
+          text-decoration: none;
+
+          &:hover {
+              text-decoration: underline;
+          }
+      }
+  }
+
+  iframe {
+      border: 1px solid #ddd;
+      border-radius: 8px;
   }
 }
