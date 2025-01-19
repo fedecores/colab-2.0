@@ -189,6 +189,7 @@ h4 {
 .works .card .card-img-top {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  cursor: pointer;
 }
 .works .card .card-body {
   background-color: #f8f9fa;
