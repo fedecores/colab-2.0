@@ -55,6 +55,14 @@
     background-color: $background-color;
     padding: 2rem 0;
 
+    h2 {
+      font-family: $font-family_titles;
+      color: $text-color;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 3rem;
+  }
+
     .about-block {
         background-color: $background-color;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -119,4 +127,52 @@
         color: $background-color; // Asegura que los textos sean de color oscuro
         font-size: 1rem; // Tamaño del texto para p
     }
+}
+
+.works {
+  padding: 2rem 0;
+  background-color: $primary-color;
+
+  h2 {
+      font-family: $font-family_titles;
+      color: $text-color;
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 3rem;
+  }
+
+  .card {
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+          transform: scale(1.05);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      .card-img-top {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+      }
+
+      .card-body {
+          background-color: $background-color;
+          padding: 1rem;
+
+          .card-title {
+              font-family: $font-family_titles;
+              color: $text-color;
+              font-size: 1.25rem;
+              margin-bottom: 0.5rem;
+          }
+
+          .card-text {
+              font-family: $font-family_alt;
+              color: $secondary-color;
+              font-size: 1rem;
+          }
+      }
+  }
 }
