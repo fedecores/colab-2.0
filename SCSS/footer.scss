@@ -1,0 +1,44 @@
+// Footer styles
+
+.footer {
+    background-color: $background-color;
+    padding: 2rem 0;
+
+    h5 {
+        font-family: $font-family_titles;
+        color: $primary-color;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-family: $font-family_alt;
+        color: $secondary-color;
+        font-size: 1.25rem;
+
+        .fab {
+            vertical-align: middle;
+            margin-right: 0.5rem;
+            color: $primary-color;
+        }
+
+        i {
+            vertical-align: middle;
+            margin-right: 0.5rem;
+            color: $primary-color;
+        }
+
+        a {
+            color: $primary-color;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .material-icons {
+        font-size: 2rem;
+        margin: 0 0.5rem;
+    }
+}
