@@ -167,7 +167,7 @@ h4 {
 
 .works {
   padding: 2rem 0;
-  background-color: #9ac5c2;
+  background-color: #f8f9fa;
 }
 .works h2 {
   font-family: "Tilt Neon", sans-serif;
@@ -176,15 +176,25 @@ h4 {
   margin-bottom: 2rem;
   font-size: 3rem;
 }
+.works .row {
+  display: flex;
+  flex-wrap: wrap;
+}
 .works .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, max-height 0.3s ease;
+  max-height: 350px;
+  overflow: hidden;
 }
 .works .card:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  max-height: none;
 }
 .works .card .card-img-top {
   border-top-left-radius: 8px;
@@ -194,6 +204,7 @@ h4 {
 .works .card .card-body {
   background-color: #f8f9fa;
   padding: 1rem;
+  flex-grow: 1;
 }
 .works .card .card-body .card-title {
   font-family: "Tilt Neon", sans-serif;
