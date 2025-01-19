@@ -109,29 +109,29 @@
 
   .p-4 {
     padding: 0.5rem;
-    background-color: $secondary-color;
-    color: $background-color; // Color del texto oscuro
+    background-color: $primary-color;
+    color: $text-color; // Color del texto oscuro
 
     h3 {
-        color: $background-color; // Asegura que los textos sean de color oscuro
+        color: $text-color; // Asegura que los textos sean de color oscuro
         font-size: 2rem; // Tamaño del texto para h3
         margin: 1rem;
     }
 
     h4 {
-        color: $background-color; // Asegura que los textos sean de color oscuro
+        color: $text-color; // Asegura que los textos sean de color oscuro
         font-size: 1rem; // Tamaño del texto para h4
     }
 
     p {
-        color: $background-color; // Asegura que los textos sean de color oscuro
+        color: $text-color; // Asegura que los textos sean de color oscuro
         font-size: 1rem; // Tamaño del texto para p
     }
 }
 
 .works {
   padding: 2rem 0;
-  background-color: $background-color;
+  background-color: $primary-color;
 
   h2 {
     font-family: $font-family_titles;

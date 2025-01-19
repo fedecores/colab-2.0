@@ -42,6 +42,15 @@ body
     }
   }
 
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; // Asegúrate de que el navbar esté por encima de otros elementos
+    background-color: $background-color; // Ajusta el color de fondo según tus necesidades
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Añade una sombra para darle un efecto de elevación
+  }
+
 .nav-item {
     color: $text-color;
     font-family: $font-family_titles;

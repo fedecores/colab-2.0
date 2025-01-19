@@ -5,4 +5,13 @@ $(document).ready(function() {
         var modal = $(this);
         modal.find('#modalImage').attr('src', imgSrc);
     });
+
+    // Navbar scroll behavior
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) { // Ajusta el valor según tus necesidades
+            $('.navbar').addClass('navbar-fixed');
+        } else {
+            $('.navbar').removeClass('navbar-fixed');
+        }
+    });
 });
