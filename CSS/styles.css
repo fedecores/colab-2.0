@@ -61,6 +61,15 @@ h2 {
   margin-top: -0.9rem;
 }
 
+.phone-number {
+  color: #343a40;
+}
+@media (max-width: 767.98px) {
+  .phone-number {
+    color: white;
+  }
+}
+
 .carousel-item {
   position: relative;
 }
