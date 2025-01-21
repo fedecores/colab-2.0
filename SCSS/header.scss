@@ -82,7 +82,9 @@ h2 {
 
 // Estilos para el número de teléfono en dispositivos móviles
 .phone-number {
-  color: $text-color; // Color por defecto
+  color: $background-color; // Color por defecto
+  font-size: 0.5 rem;
+  font-family: $font-family;
 
   @media (max-width: 767.98px) { // Estilos para dispositivos móviles
       color: white;
