@@ -32,8 +32,14 @@
             text-decoration: none;
 
             &:hover {
-                text-decoration: underline;
+                    background-color: $primary-color;
+                    color: white;
             }
+        }
+
+        span {
+            font-family: $font-family_brand;
+            color:$text-color;
         }
     }
 

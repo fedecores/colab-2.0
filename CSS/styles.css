@@ -157,6 +157,7 @@ h4 {
 
 .p-4 {
   padding: 0.5rem;
+  border: 0.5rem;
   background-color: #9ac5c2;
   color: #343a40;
 }
@@ -299,7 +300,12 @@ h4 {
   text-decoration: none;
 }
 .footer p a:hover {
-  text-decoration: underline;
+  background-color: #9ac5c2;
+  color: white;
+}
+.footer p span {
+  font-family: "knewave", sans-serif;
+  color: #343a40;
 }
 .footer .material-icons {
   font-size: 2rem;
