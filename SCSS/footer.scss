@@ -1,5 +1,6 @@
-// Footer styles
 
+
+// Estilos para el footer
 .footer {
     background-color: $background-color;
     padding: 2rem 0;
@@ -30,16 +31,16 @@
         a {
             color: $primary-color;
             text-decoration: none;
-
-            &:hover {
-                    background-color: $primary-color;
-                    color: white;
-            }
         }
 
-        span {
+        .brand {
             font-family: $font-family_brand;
-            color:$text-color;
+            color: $text-color;
+            transition: transform 0.3s ease-in-out; // Añade una transición suave
+
+            &:hover {
+                transform: scale(1.2); // Agranda el span al pasar el cursor
+            }
         }
     }
 
