@@ -28,6 +28,15 @@ $(document).ready(function() {
                 currLink.removeAttr('title'); // Elimina el tooltip
             }
         });
+
+        // Animación de entrada para las cajas
+        $('.animated').each(function() {
+            var elementPos = $(this).offset().top;
+            var windowHeight = $(window).height();
+            if (elementPos < scrollPos + windowHeight - 100) { // Ajusta el valor según tus necesidades
+                $(this).addClass('fadeInUp');
+            }
+        });
     });
 
     // Smooth scroll with offset for navbar
@@ -35,7 +44,7 @@ $(document).ready(function() {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
-            var offset = $('.navbar').outerHeight() ; // Altura del navbar - 50px adicional
+            var offset = $('.navbar').outerHeight(); // Altura del navbar
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top - offset
@@ -47,4 +56,7 @@ $(document).ready(function() {
             $('.navbar-collapse').collapse('hide');
         }
     });
+
+    // Trigger scroll event on page load to animate elements already in view
+    $(window).trigger('scroll');
 });
