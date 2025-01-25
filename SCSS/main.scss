@@ -1,5 +1,6 @@
   //Main styles
 
+
   .carousel-item {
     position: relative;
   
@@ -53,7 +54,8 @@
 
   .about-us {
     background-color: $background-color;
-    padding: 2rem 0;
+    padding: 8rem 0;
+
 
     h2 {
       font-family: $font-family_titles;
@@ -61,6 +63,7 @@
       text-align: center;
       margin-bottom: 2rem;
       font-size: 2rem;
+      
   }
 
     .about-block {
@@ -131,8 +134,8 @@
 }
 
 .works {
-  padding: 2rem 0;
-  background-color: $primary-color;
+    background-color: $primary-color;
+    padding: 8rem 0;
 
   h2 {
     font-family: $font-family_titles;
@@ -140,6 +143,7 @@
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2rem;
+    padding-top: 8rem;
 }
   .row {
       display: flex;
@@ -193,7 +197,6 @@
 // Contact Us styles
 
 .contact-us {
-  padding: 2rem 0;
   background-color: $background-color-alt;
 
   i{
@@ -208,6 +211,8 @@
       text-align: center;
       margin-bottom: 2rem;
       font-size: 2rem;
+      padding-top: 8rem;
+
   }
 
   h3 {

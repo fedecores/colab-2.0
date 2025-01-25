@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #f8f9fa;
   color: #343a40;
@@ -120,7 +116,7 @@ h4 {
 
 .about-us {
   background-color: #f8f9fa;
-  padding: 2rem 0;
+  padding: 8rem 0;
 }
 .about-us h2 {
   font-family: "Tilt Neon", sans-serif;
@@ -187,8 +183,8 @@ h4 {
 }
 
 .works {
-  padding: 2rem 0;
   background-color: #9ac5c2;
+  padding: 8rem 0;
 }
 .works h2 {
   font-family: "Tilt Neon", sans-serif;
@@ -196,6 +192,7 @@ h4 {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
+  padding-top: 8rem;
 }
 .works .row {
   display: flex;
@@ -240,7 +237,6 @@ h4 {
 }
 
 .contact-us {
-  padding: 2rem 0;
   background-color: #ebeaea;
 }
 .contact-us i {
@@ -254,6 +250,7 @@ h4 {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
+  padding-top: 8rem;
 }
 .contact-us h3 {
   font-family: "Tilt Neon", sans-serif;
